@@ -1,3 +1,14 @@
+# WebChat
+A simple website to chat with chatgpt
+
+### Replace ApiKey
+```
+// main.go
+...
+var client = gogpt.NewClient("Your ApiKey")
+...
+```
+
 ### Run
 ```
 go get
